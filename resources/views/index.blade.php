@@ -1,9 +1,29 @@
 @extends('layouts.index')
 
+@section('header')
+    <nav class="navbar navbar-expand-sm">
+        <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="#togglerNav"
+                aria-controls="togglerNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-white font-weight-bold" href="#" style="font-family: 'Pacifico', cursive; font-size: 35px">Mwriter</a>
+
+        <div id="togglerNav" class="collapse navbar-collapse justify-content-end">
+            <div class="navbar">
+                <a href="" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>
+                <a href="" class="nav-item btn border rounded text-white font-weight-bold">Sign up</a>
+            </div>
+        </div>
+    </nav>
+@endsection
+
 @section('main')
-    <div>TRACK YOUR JOURNEY OF READING BOOKS</div>
-    <div>Choose any book from Libray and then add, edit or write notes on your digital bookshelf.</div>
-    <form action="search" method="GET">
-        <input placeholder="Search a book">
-    </form>
+    <div class="w-100 text-center text-white">
+        <h1 class="" style="">TRACK YOUR JOURNEY OF READING BOOKS</h1>
+        <p class="">Choose any book from library and then add, edit or write notes on your digital bookshelf.</p>
+        <form action="search" method="GET">
+            <input class="form-control w-50 m-auto" placeholder="Search a book">
+        </form>
+    </div>
 @endsection
