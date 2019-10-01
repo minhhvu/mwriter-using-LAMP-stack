@@ -1,0 +1,764 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2665,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "eVpqDwAAQBAJ",
+      "etag": "YFcbmVazyXc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/eVpqDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Ulysses",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=eVpqDwAAQBAJ&pg=PP1&dq=james+joyce&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=eVpqDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=eVpqDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=eVpqDwAAQBAJ&rdid=book-eVpqDwAAQBAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=eVpqDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In his novel, Joyce parodies and retells a lot of plots and works from the world literature, quotes old myths and creates new ones. This makes the novel so unique."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gkATBAAAQBAJ",
+      "etag": "1wQ/fgq56rY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gkATBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Dubliners",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Lulu.com",
+        "publishedDate": "1967",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781291273991"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1291273999"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 261,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gkATBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gkATBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=gkATBAAAQBAJ&printsec=frontcover&dq=james+joyce&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=gkATBAAAQBAJ&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Dubliners.html?hl=&id=gkATBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=gkATBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VjcoLqAToaQC",
+      "etag": "XIRKZ+zqBMM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VjcoLqAToaQC",
+      "volumeInfo": {
+        "title": "The Dead",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Coyote Canyon Press",
+        "publishedDate": "2008-10",
+        "description": "\"The Dead is one of the twentieth century's most beautiful pieces of short literature. Taking his inspiration from a family gathering held every year on the Feast of the Epiphany, Joyce pens a story about a married couple attending a Christmas-season party at the house of the husband's two elderly aunts. A shocking confession made by the husband's wife toward the end of the story showcases the power of Joyce's greatest innovation: the epiphany, that moment when everything, for character and reader alike, is suddenly clear.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780979660795"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0979660793"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 70,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.0,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VjcoLqAToaQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VjcoLqAToaQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=VjcoLqAToaQC&printsec=frontcover&dq=james+joyce&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VjcoLqAToaQC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VjcoLqAToaQC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3.9,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 2.96,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VjcoLqAToaQC&rdid=book-VjcoLqAToaQC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3900000.0,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 2960000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Dead-sample-epub.acsm?id=VjcoLqAToaQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Dead-sample-pdf.acsm?id=VjcoLqAToaQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VjcoLqAToaQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A shocking confession made by the husband&#39;s wife toward the end of the story showcases the power of Joyce&#39;s greatest innovation: the epiphany, that moment when everything, for character and reader alike, is suddenly clear."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AbrXEkJoPwsC",
+      "etag": "Cy8vgcc84fg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AbrXEkJoPwsC",
+      "volumeInfo": {
+        "title": "Four Novels by James Joyce",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "eBookIt.com",
+        "publishedDate": "2013-03",
+        "description": "Compiled in one book, the essential collection of books by James JoyceUlyssesPortrait of the Artist As a Young ManThe DublinersChamber Music",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781456613792"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1456613790"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 2447,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AbrXEkJoPwsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AbrXEkJoPwsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=AbrXEkJoPwsC&printsec=frontcover&dq=james+joyce&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=AbrXEkJoPwsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AbrXEkJoPwsC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 2.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=AbrXEkJoPwsC&rdid=book-AbrXEkJoPwsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2990000.0,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 2990000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AbrXEkJoPwsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Compiled in one book, the essential collection of books by James JoyceUlyssesPortrait of the Artist As a Young ManThe DublinersChamber Music"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "C_rPXanc_HAC",
+      "etag": "zGMsWYNstbQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/C_rPXanc_HAC",
+      "volumeInfo": {
+        "title": "A Portrait of the Artist as a Young Man",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Wordsworth Editions",
+        "publishedDate": "1992",
+        "description": "Perhaps Joyce's most personal work, \"A Portrait Of The Artist As A Young Man\" depicts the intellectual awakening of one of literature's most memorable young heroes, Stephen Dedalus. Through a series of brilliant epiphanies that parallel the development of his own aesthetic consciousness, Joyce evokes Stephen's youth, from his impressionable years as the youngest student at the Clongowed Wood school to the deep religious conflict he experiences at a day school in Dublin, and finally to his college studies where he challenges the conventions of his upbringing and his understanding of faith and intellectual freedom. James Joyce's highly autobiographical novel was first published in the United States in 1916 to immediate acclaim. Ezra Pound accurately predicted that Joyce's book would \"remain a permanent part of English literature, \" while H.G. Wells dubbed it \"by far the most important living and convincing picture that exists of an Irish Catholic upbringing.\" A remarkably rich study of a developing young mind, \"A Portrait Of The Artist As A Young Man\" made an indelible mark on literature and confirmed Joyce's reputation as one of the world's greatest and lasting writers.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1853260061"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853260063"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 252,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.0,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.4.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=C_rPXanc_HAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=C_rPXanc_HAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=C_rPXanc_HAC&printsec=frontcover&dq=james+joyce&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=C_rPXanc_HAC&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Portrait_of_the_Artist_as_a_Young_Man.html?hl=&id=C_rPXanc_HAC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/A_Portrait_of_the_Artist_as_a_Young_Man-sample-epub.acsm?id=C_rPXanc_HAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=C_rPXanc_HAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This novel is a highly autobiographical account of the adolescence of Stephen Dedalus, who reappears in &#39;Ulysses&#39;, and who comes to realise that before he can become a true artist, he must rid himself of the stultifying effects of the ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FPxt5rmu1h8C",
+      "etag": "SXO7KhNWVhQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FPxt5rmu1h8C",
+      "volumeInfo": {
+        "title": "Ulysses",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Courier Corporation",
+        "publishedDate": "2002-01-01",
+        "description": "Roman der foregår den 16. juni 1904 og afspejler nogle få menneskers liv og tanker",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0486424448"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780486424446"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 732,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FPxt5rmu1h8C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FPxt5rmu1h8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=FPxt5rmu1h8C&dq=james+joyce&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=FPxt5rmu1h8C&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ulysses.html?hl=&id=FPxt5rmu1h8C"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FPxt5rmu1h8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Roman der foregår den 16. juni 1904 og afspejler nogle få menneskers liv og tanker"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0ddvLGKDz4QC",
+      "etag": "BVxW8vNww8Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0ddvLGKDz4QC",
+      "volumeInfo": {
+        "title": "James Joyce in Context",
+        "authors": [
+          "John McCourt"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2009-02-12",
+        "description": "A collection of new essays covering Joyce's life, times and cultural contexts.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780521886628"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0521886627"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 414,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0ddvLGKDz4QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0ddvLGKDz4QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=0ddvLGKDz4QC&printsec=frontcover&dq=james+joyce&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=0ddvLGKDz4QC&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/James_Joyce_in_Context.html?hl=&id=0ddvLGKDz4QC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0ddvLGKDz4QC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A collection of new essays covering Joyce&#39;s life, times and cultural contexts."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Q-wgOcwu1FgC",
+      "etag": "1K6us2m1tWo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Q-wgOcwu1FgC",
+      "volumeInfo": {
+        "title": "Dubliners",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "OUP Oxford",
+        "publishedDate": "2008-06-12",
+        "description": "'I regret to see that my book has turned out un fiasco solenne' James Joyce's disillusion with the publication of Dubliners in 1914 was the result of ten years battling with publishers, resisting their demands to remove swear words, real place names and much else, including two entire stories. Although only 24 when he signed his first publishing contract for the book, Joyce already knew its worth: to alter it in any way would 'retard the course of civilisation in Ireland'. Joyce's aim was to tell the truth - to create a work of art that would reflect life in Ireland at the turn of the last century and by rejecting euphemism, reveal to the Irish the unromantic reality the recognition of which would lead to the spiritual liberation of the country. Each of the fifteen stories offers a glimpse of the lives of ordinary Dubliners - a death, an encounter, an opportunity not taken, a memory rekindled - and collectively they paint a portrait of a nation. ABOUT THE SERIES: For over 100 years Oxford World's Classics has made available the widest range of literature from around the globe. Each affordable volume reflects Oxford's commitment to scholarship, providing the most accurate text plus a wealth of other valuable features, including expert introductions by leading authorities, helpful notes to clarify the text, up-to-date bibliographies for further study, and much more.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780191631139"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0191631132"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.4.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Q-wgOcwu1FgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Q-wgOcwu1FgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Q-wgOcwu1FgC&printsec=frontcover&dq=james+joyce&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Q-wgOcwu1FgC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Q-wgOcwu1FgC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.88,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 8.7,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Q-wgOcwu1FgC&rdid=book-Q-wgOcwu1FgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.088E7,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8700000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Dubliners-sample-epub.acsm?id=Q-wgOcwu1FgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Dubliners-sample-pdf.acsm?id=Q-wgOcwu1FgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Q-wgOcwu1FgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Each of the fifteen stories offers a glimpse of the lives of ordinary Dubliners - a death, an encounter, an opportunity not taken, a memory rekindled - and collectively they paint a portrait of a nation."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vdhWenAcwCUC",
+      "etag": "7X/b0+Z26Do",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vdhWenAcwCUC",
+      "volumeInfo": {
+        "title": "Occasional, Critical, and Political Writing",
+        "authors": [
+          "James Joyce",
+          "Kevin Barry",
+          "Conor Deane"
+        ],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "2000",
+        "description": "I may not be the Jesus Christ I once fondly imagined myself, but I think I must have a talent for journalism' James Joyce's non-fictional writings address diverse issues: aesthetics, the functions of the press, censorship, Irish cultural history, England's literature and empire. This collection includes newspaper articles, reviews, lectures, and propagandizing essays that are consciously public, direct, and communicative. It covers forty years of Joyce's life and maps important changes in his opinions about politics, especially Irish politics, about the relationship of literature to history, and about writers who remained important to him such as Mangan, Blake, Defoe, Ibsen, Wilde, and Shaw. These pieces also clarify and illuminate the transformations in Joyce's fiction, from Dubliners and A Portrait of the Artist as a Young Man to the first drafts of Ulysses. Gathering together more than fifty essays, several of which have never been available in an English edition, this volume is the most complete and the most helpfully annotated collection.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0192833537"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780192833532"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 360,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "averageRating": 5.0,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vdhWenAcwCUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vdhWenAcwCUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=vdhWenAcwCUC&printsec=frontcover&dq=james+joyce&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=vdhWenAcwCUC&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Occasional_Critical_and_Political_Writin.html?hl=&id=vdhWenAcwCUC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vdhWenAcwCUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This collection includes newspaper articles, reviews, lectures, and propagandizing essays that are consciously public, direct,and communicative."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QutaAAAAMAAJ",
+      "etag": "zUeJAc5O1JM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QutaAAAAMAAJ",
+      "volumeInfo": {
+        "title": "James Joyce",
+        "authors": [
+          "Steven Connor"
+        ],
+        "publisher": "University Press of Mississippi",
+        "publishedDate": "1996-01-01",
+        "description": "In this lively, approachable introduction, which covers the whole range of James Joyce's writing from Dubliners to Finnegans Wake, Steven Connor traces the key concerns of language, identity and the transforming experiences of modernity",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015038184415"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 110,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QutaAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QutaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=QutaAAAAMAAJ&q=james+joyce&dq=james+joyce&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=QutaAAAAMAAJ&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/James_Joyce.html?hl=&id=QutaAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QutaAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this lively, approachable introduction, which covers the whole range of James Joyce&#39;s writing from Dubliners to Finnegans Wake, Steven Connor traces the key concerns of language, identity and the transforming experiences of modernity"
+      }
+    }
+  ]
+}
+
+{ "title": "The Dead", "authors": [ "James Joyce" ],
+  VIETNAMESE
+{     "tiêu đề": "Người chết",     "tác giả": [      "James Joyce"     ]
+  EXTENSION OPTIONSMORE »
