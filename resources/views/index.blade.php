@@ -1,16 +1,16 @@
 @extends('layouts.index')
 
 @section('header')
-    <nav class="navbar navbar-expand-sm">
-        <button class="navbar-toggler" type="button"
-                data-toggle="collapse" data-target="#togglerNav"
-                aria-controls="togglerNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-sm justify-content-between">
+        {{--<button class="navbar-toggler" type="button"--}}
+                {{--data-toggle="collapse" data-target="#togglerNav"--}}
+                {{--aria-controls="togglerNav" aria-expanded="false" aria-label="Toggle navigation">--}}
+            {{--<span class="navbar-toggler-icon"></span>--}}
+        {{--</button>--}}
         <a class="navbar-brand text-white font-weight-bold" href="#" style="font-family: 'Pacifico', cursive; font-size: 35px">Mwriter</a>
 
-        <div id="togglerNav" class="collapse navbar-collapse justify-content-end">
-            <div class="navbar">
+        <div id="togglerNav" class="justify-content-end"> {{--collapse navbar-collapse--}}
+            <div class="navbar" style="padding: 0">
                 <a href="" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>
                 <a href="" class="nav-item btn border rounded text-white font-weight-bold">Sign up</a>
             </div>
