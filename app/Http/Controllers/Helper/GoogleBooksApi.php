@@ -21,7 +21,9 @@ class GoogleBooksApi
     private $query;
     private $array;
 
-    public function __construct($keywords, $maxResults= 10){
+//    private const MAX_RESULTS = 15;
+
+    public function __construct($keywords, $maxResults= 15){
         $this->keywords = urlencode($keywords);
         $this->maxResults = $maxResults;
         $query = 'https://www.googleapis.com/books/v1/volumes?q='.$this->keywords.'&maxResults='.(string) $this->maxResults.'&key='.$this->key;
@@ -34,12 +36,13 @@ class GoogleBooksApi
     public function allBooks(){
         $result = [];
         foreach ($this->array as $item){
+            //Read book information into an object
             $x = new GoogleBook();
             $x->id = $item['id'];
             $x->title = $item['volumeInfo']['title'].', '.(isset($item['volumeInfo']['subtitle'])?$item['volumeInfo']['subtitle']:'');
-            $x->authors = isset($item['volumeInfo']['authors'])? $item['volumeInfo']['authors']: 'Unknown';
+            $x->authors = isset($item['volumeInfo']['authors'])? $item['volumeInfo']['authors']: ['Unknown'];
             $x->publishDate = isset($item['volumeInfo']['publishedDate']) ? $item['volumeInfo']['publishedDate'] : 'Unknown';
-            $x->coverLink = isset($item['volumeInfo']['imageLink']['thumbnail'])?$item['volumeInfo']['imageLink']['thumbnail']: 'Not available';
+            $x->coverLink = isset($item['volumeInfo']['imageLinks']['thumbnail'])?$item['volumeInfo']['imageLinks']['thumbnail']: 'https://www.google.com/googlebooks/images/no_cover_thumb.gif';
             $x->description = isset($item['volumeInfo']['description'])? $item['volumeInfo']['description']: '';
             $x->previewLink = isset($item['volumeInfo']['previewLink'])? $item['volumeInfo']['previewLink']: 'Not available';
             $x->textSnippet = isset($item['searchInfo']['textSnippet'])?$item['searchInfo']['textSnippet']:'';

@@ -1,5 +1,796 @@
 {
   "kind": "books#volumes",
+  "totalItems": 2927,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "QLmXe05AEFMC",
+      "etag": "V2SwoP7bvig",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QLmXe05AEFMC",
+      "volumeInfo": {
+        "title": "The I LOVE YOU Book",
+        "authors": [
+          "Todd Parr"
+        ],
+        "publisher": "Little, Brown Books for Young Readers",
+        "publishedDate": "2009-11-16",
+        "description": "I love you when you give me kisses. I love you when you need hugs... Most of all, I love you just the way you are. In his newest picture book, Todd Parr explores the meaning of unconditional love in a heartfelt, playful way. Featuring a heart-shaped die-cut and sparkling silver foil on the cover, this is the perfect way to say, \"I love you!\" Parents and caregivers are sure to be inspired by Todd's vibrant illustrations and tender sentiments, and will enjoy sharing this very special book with the little ones they love.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780316093378"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0316093378"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 5.0,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QLmXe05AEFMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QLmXe05AEFMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=QLmXe05AEFMC&printsec=frontcover&dq=I+love+you&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=QLmXe05AEFMC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_I_LOVE_YOU_Book.html?hl=&id=QLmXe05AEFMC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_I_LOVE_YOU_Book-sample-epub.acsm?id=QLmXe05AEFMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QLmXe05AEFMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In his newest picture book, Todd Parr explores the meaning of unconditional love in a heartfelt, playful way. Featuring a heart-shaped die-cut and sparkling silver foil on the cover, this is the perfect way to say, &quot;I love you!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LbnsreitlDEC",
+      "etag": "rZyMVAueyPU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LbnsreitlDEC",
+      "volumeInfo": {
+        "title": "PS, I Love You",
+        "authors": [
+          "Cecelia Ahern"
+        ],
+        "publisher": "HarperCollins UK",
+        "publishedDate": "2008-09-04",
+        "description": "Meaningful and moving - the classic million-copy bestselling love story from Cecelia Ahern.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780007279364"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0007279361"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 512,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.0,
+        "ratingsCount": 104,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.27.24.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=LbnsreitlDEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=LbnsreitlDEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=LbnsreitlDEC&printsec=frontcover&dq=I+love+you&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=LbnsreitlDEC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LbnsreitlDEC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=LbnsreitlDEC&rdid=book-LbnsreitlDEC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/PS_I_Love_You-sample-epub.acsm?id=LbnsreitlDEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LbnsreitlDEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The million-copy bestselling love story – including an extract from the brand new sequel, Postscript"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FXyNuAEACAAJ",
+      "etag": "9R0zJVXUKxw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FXyNuAEACAAJ",
+      "volumeInfo": {
+        "title": "I Love You, Funny Bunny",
+        "authors": [
+          "Sean Julian"
+        ],
+        "publishedDate": "2018-12-17",
+        "description": "An illustrated, rhyming celebration of the love between a parent and child.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0310765439"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780310765431"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FXyNuAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FXyNuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=FXyNuAEACAAJ&dq=I+love+you&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=FXyNuAEACAAJ&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Love_You_Funny_Bunny.html?hl=&id=FXyNuAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FXyNuAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "An illustrated, rhyming celebration of the love between a parent and child."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OINUPjBneywC",
+      "etag": "DTucKIBED+Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OINUPjBneywC",
+      "volumeInfo": {
+        "title": "Vietnam, I Love You",
+        "authors": [
+          "Tom Lee"
+        ],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2011-11",
+        "description": "Doctor Jimmy Capri was anxious. Doctor Maureen \"Mo\" Lally had coerced him into presenting their paper at a military medical meeting in Hanoi. He feared that returning to Vietnam would unmask the post traumatic stress disorder, PTSD that he suffered from his first tour at First Marines First Medical Battalion in Da Nang and that he had managed to submerge for over thirty-five years. The memories that had lain dormant did surface, including being shot and the details of his love affair with Mai Nguyen, a nurse at WHO Children\"s Hospital. What he didn't anticipate from his short stay in Vietnam, was a new love.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781467853651"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1467853658"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 408,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OINUPjBneywC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OINUPjBneywC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=OINUPjBneywC&printsec=frontcover&dq=I+love+you&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=OINUPjBneywC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Vietnam_I_Love_You.html?hl=&id=OINUPjBneywC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OINUPjBneywC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Doctor Jimmy Capri was anxious."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xYLZq_mJsUcC",
+      "etag": "UtRK6mAtZGk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xYLZq_mJsUcC",
+      "volumeInfo": {
+        "title": "Haiti, I Love You",
+        "authors": [
+          "Emmanuel LaTouche"
+        ],
+        "publisher": "Xlibris Corporation",
+        "publishedDate": "2011-08-30",
+        "description": "Hati, I Love You, the fifth book of poetry, is a love collection for everyone to share one",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1462897258"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781462897254"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 48,
+        "printType": "BOOK",
+        "categories": [
+          "Poetry"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xYLZq_mJsUcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xYLZq_mJsUcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=xYLZq_mJsUcC&printsec=frontcover&dq=I+love+you&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=xYLZq_mJsUcC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xYLZq_mJsUcC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=xYLZq_mJsUcC&rdid=book-xYLZq_mJsUcC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.399E7,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Haiti_I_Love_You-sample-epub.acsm?id=xYLZq_mJsUcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Haiti_I_Love_You-sample-pdf.acsm?id=xYLZq_mJsUcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xYLZq_mJsUcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Hati, I Love You, the fifth book of poetry, is a love collection for everyone to share one"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7ep09WAFbDwC",
+      "etag": "kK4GbaI1qwM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7ep09WAFbDwC",
+      "volumeInfo": {
+        "title": "Love You Forever",
+        "authors": [
+          "Robert N. Munsch"
+        ],
+        "publisher": "Firefly Books",
+        "publishedDate": "1986",
+        "description": "As her son grows up from little boy to adult man, a mother secretly rocks him each night as he sleeps.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0920668372"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780920668375"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 337,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7ep09WAFbDwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7ep09WAFbDwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=7ep09WAFbDwC&printsec=frontcover&dq=I+love+you&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=7ep09WAFbDwC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Love_You_Forever.html?hl=&id=7ep09WAFbDwC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7ep09WAFbDwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "As her son grows up from little boy to adult man, a mother secretly rocks him each night as he sleeps."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TDW2PLQWDVEC",
+      "etag": "TUHo7zJFrHo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TDW2PLQWDVEC",
+      "volumeInfo": {
+        "title": "I Only Say This Because I Love You",
+        "subtitle": "Talking to Your Parents, Partner, Sibs, and Kids When You're All Adults",
+        "authors": [
+          "Deborah Tannen"
+        ],
+        "publisher": "Random House Digital, Inc.",
+        "publishedDate": "2002",
+        "description": "A guide to communicating better within families explains how to untie the knots that often hamper important discussions and how to enhance personal relationships among family members by understanding the art of conversation and listening.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345407528"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0345407520"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": [
+          "Family & Relationships"
+        ],
+        "averageRating": 3.0,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TDW2PLQWDVEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TDW2PLQWDVEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=TDW2PLQWDVEC&printsec=frontcover&dq=I+love+you&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=TDW2PLQWDVEC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Only_Say_This_Because_I_Love_You.html?hl=&id=TDW2PLQWDVEC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TDW2PLQWDVEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "I Only Say This Because I Love You, Tannen shows how important it is, in family talk, to learn to separate word meanings, or messages, from heart meanings, or metamessages — unstated but powerful meanings that come from the history of our ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jh-zCwAAQBAJ",
+      "etag": "pQuWCjDZZFM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jh-zCwAAQBAJ",
+      "volumeInfo": {
+        "title": "I Wrote This Book Because I Love You",
+        "subtitle": "Essays",
+        "authors": [
+          "Tim Kreider"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2018-02-06",
+        "description": "*A People Top 10 Book of 2018* The New York Times essayist and author of We Learn Nothing, Tim Kreider trains his singular power of observation on his (often befuddling) relationships with women. Psychologists have told him he’s a psychologist. Philosophers have told him he’s a philosopher. Religious groups have invited him to speak. He had a cult following as a cartoonist. But, above all else, Tim Kreider is an essayist—one whose deft prose, uncanny observations, dark humor, and emotional vulnerability have earned him deserved comparisons to David Sedaris, Sarah Vowell, and the late David Foster Wallace (who was himself a fan of Kreider’s humor). “Beautifully written, with just enough humor to balance his spikiness” (Booklist), I Wrote This Book Because I Love You focuses Tim’s unique perception and wit on his relationships with women—romantic, platonic, and the murky in-between. He talks about his difficulty finding lasting love and seeks to understand his commitment issues by tracking down the John Hopkins psychologist who tested him for a groundbreaking study on attachment when he was a toddler. He talks about his valued female friendships, one of which landed him on a circus train bound for Mexico. He talks about his time teaching young women at an upstate New York college, and the profound lessons they wound up teaching him. And in a hugely popular essay that originally appeared in The New York Times, he talks about his nineteen-year-old cat, wondering if it’s the most enduring relationship he’ll ever have. “In a style reminiscent of Orwell, E.B. White and David Sedaris” (The New York Times Book Review), each of these pieces is “heartbreaking, brutal, and hilarious” (Judd Apatow), and collectively they cement Kreider’s place among the best essayists working today.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781476739021"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1476739021"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.8.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Jh-zCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Jh-zCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Jh-zCwAAQBAJ&printsec=frontcover&dq=I+love+you&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Jh-zCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Jh-zCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 15.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 15.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Jh-zCwAAQBAJ&rdid=book-Jh-zCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.599E7,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.599E7,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/I_Wrote_This_Book_Because_I_Love_You-sample-epub.acsm?id=Jh-zCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Jh-zCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "But, above all else, Tim Kreider is an essayist—one whose deft prose, uncanny observations, dark humor, and emotional vulnerability have earned him deserved comparisons to David Sedaris, Sarah Vowell, and the late David Foster Wallace ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "bEx9AAAAMAAJ",
+      "etag": "awMmaxecMv0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bEx9AAAAMAAJ",
+      "volumeInfo": {
+        "title": "I Love You",
+        "authors": [
+          "Francesco Alberoni",
+          "Daphne Huges Newton"
+        ],
+        "publishedDate": "1996-01-01",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015040688262"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 421,
+        "printType": "BOOK",
+        "categories": [
+          "Love"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bEx9AAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bEx9AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=bEx9AAAAMAAJ&q=I+love+you&dq=I+love+you&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=bEx9AAAAMAAJ&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Love_You.html?hl=&id=bEx9AAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=bEx9AAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1DR36MWNTfEC",
+      "etag": "H27eJFyv0GM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1DR36MWNTfEC",
+      "volumeInfo": {
+        "title": "I Love You More",
+        "publisher": "Sourcebooks, Inc.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781402241666"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1402241666"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "averageRating": 4.0,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1DR36MWNTfEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1DR36MWNTfEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=1DR36MWNTfEC&printsec=frontcover&dq=I+love+you&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=1DR36MWNTfEC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Love_You_More.html?hl=&id=1DR36MWNTfEC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/I_Love_You_More-sample-epub.acsm?id=1DR36MWNTfEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/I_Love_You_More-sample-pdf.acsm?id=1DR36MWNTfEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1DR36MWNTfEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
+{
+  "kind": "books#volumes",
   "totalItems": 2665,
   "items": [
     {

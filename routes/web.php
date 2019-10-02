@@ -15,4 +15,6 @@
 //    return view('welcome');
 //});
 
-Route::get('/', "LibraryController@index");
+Route::get('/', "LibraryController@index")->name('homepage');
+
+Route::get('search', "LibraryController@search");
