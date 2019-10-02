@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Helper\GoogleBooksApi;
+use Illuminate\View\View;
 
 class LibraryController extends Controller
 {
@@ -14,7 +15,7 @@ class LibraryController extends Controller
      */
     public function index()
     {
-        return view('index');
+        return view('index')->with('background_color','none');
     }
 
     /**
@@ -29,12 +30,27 @@ class LibraryController extends Controller
             $keywords = $request->input('search');
 
             //Retrieve data from Google Book API request
-            $books = (new GoogleBooksApi($keywords))->allBooks();
+            $query = new GoogleBooksApi;
+            $query->setSearch($keywords);
+            $books = $query->allBooks();
 
 
         };
-        return view('search')->with(['background_color' =>'#86B592', 'keywords' =>$keywords, 'books' => $books]);
+        return view('search')->with(['keywords' =>$keywords, 'books' => $books]);
     }
+
+    /**
+     * Display the book detail
+     * @param string
+     * @return
+     */
+
+    public function book($id){
+        var_dump($id);
+        return view('book_detail');
+    }
+
+
 
     /**
      * Show the form for creating a new resource.
