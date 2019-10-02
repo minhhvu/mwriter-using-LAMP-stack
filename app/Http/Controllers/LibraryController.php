@@ -46,8 +46,11 @@ class LibraryController extends Controller
      */
 
     public function book($id){
-        var_dump($id);
-        return view('book_detail');
+        //Retrieve data from Google Book Api
+        $query = new GoogleBooksApi();
+        $book = $query->getBook($id);
+
+        return view('book_detail')->with('book',$book);
     }
 
 
