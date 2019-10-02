@@ -19,13 +19,13 @@
         <div>
             @foreach($books as $item)
                 <div class="d-flex flex-wrap mb-4">
-                    <a href="#" class="col-sm-2" ><img src="{{$item->coverLink}}" class="img-fluid img-thumbnail"></a>
+                    <a href="book/{{$item->id}}" class="col-sm-2" ><img src="{{$item->coverLink}}" class="img-fluid img-thumbnail"></a>
                     <div class="col-sm-10" style="">
                         <h5 class="card-title">{{$item->title}}</h5>
                         <h6 class="card-text">by {{implode(' ',$item->authors)}}</h6>
                         <p class="card-text">{!! str_replace('<br>','',$item->textSnippet) !!}</p>
                         <form action="" method="get">
-                            <input type="hidden" name="book" value="{{$item}}">
+                            <input type="hidden" name="book" value="{{json_encode($item)}}">
                             <button type="button" class="btn btn-info">Add to Reading List</button>
                         </form>
                     </div>

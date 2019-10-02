@@ -1,4 +1,4 @@
-<section id="header" class="w-100" style="background: {{$background_color or 'none'}}">
+<section id="header" class="w-100" style="background: {{$background_color or '#86B592'}}">
     <nav class="container navbar navbar-expand-sm justify-content-between">
         {{--<button class="navbar-toggler" type="button"--}}
         {{--data-toggle="collapse" data-target="#togglerNav"--}}
