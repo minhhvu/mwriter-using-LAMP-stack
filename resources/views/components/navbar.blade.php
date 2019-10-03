@@ -9,8 +9,8 @@
 
         <div id="togglerNav" class="justify-content-end"> {{--collapse navbar-collapse--}}
             <div class="navbar" style="padding: 0">
-                <a href="" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>
-                <a href="" class="nav-item btn border rounded text-white font-weight-bold">Sign up</a>
+                <a href="/login" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>
+                <a href="/register" class="nav-item btn border rounded text-white font-weight-bold">Register</a>
             </div>
         </div>
     </nav>

@@ -11,12 +11,16 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 
 Route::get('/', "LibraryController@index")->name('homepage');
 
 Route::get('search', "LibraryController@search");
 
 Route::get('book/{id}', "LibraryController@book");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
