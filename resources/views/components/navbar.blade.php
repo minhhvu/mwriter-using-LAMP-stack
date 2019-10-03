@@ -1,4 +1,4 @@
-<section id="header" class="border-bottom" style="background-image: url('{{URL::asset('images/background.jpg')}}'); background-repeat: no-repeat; background-size: cover;">
+<section id="header" class="" style="background-image: url('{{URL::asset('images/background.jpg')}}'); background-repeat: no-repeat; background-size: cover;">
     <nav class="container navbar navbar-expand-sm justify-content-between">
         {{--<button class="navbar-toggler" type="button"--}}
         {{--data-toggle="collapse" data-target="#togglerNav"--}}
@@ -9,8 +9,13 @@
 
         <div id="togglerNav" class="justify-content-end"> {{--collapse navbar-collapse--}}
             <div class="navbar" style="padding: 0">
-                <a href="/login" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>
-                <a href="/register" class="nav-item btn border rounded text-white font-weight-bold">Register</a>
+                @auth
+                    <a href="" class="nav-item btn mr-3 text-white font-weight-bold">Welcome</a>
+                    <a href="/logout" class="nav-item btn border rounded text-white font-weight-bold">Logout</a>
+                @else
+                    <a href="/login" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>
+                    <a href="/register" class="nav-item btn border rounded text-white font-weight-bold">Register</a>
+                @endauth
             </div>
         </div>
     </nav>
