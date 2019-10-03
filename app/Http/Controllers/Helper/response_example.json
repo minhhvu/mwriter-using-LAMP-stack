@@ -1,0 +1,1555 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2927,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "QLmXe05AEFMC",
+      "etag": "V2SwoP7bvig",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QLmXe05AEFMC",
+      "volumeInfo": {
+        "title": "The I LOVE YOU Book",
+        "authors": [
+          "Todd Parr"
+        ],
+        "publisher": "Little, Brown Books for Young Readers",
+        "publishedDate": "2009-11-16",
+        "description": "I love you when you give me kisses. I love you when you need hugs... Most of all, I love you just the way you are. In his newest picture book, Todd Parr explores the meaning of unconditional love in a heartfelt, playful way. Featuring a heart-shaped die-cut and sparkling silver foil on the cover, this is the perfect way to say, \"I love you!\" Parents and caregivers are sure to be inspired by Todd's vibrant illustrations and tender sentiments, and will enjoy sharing this very special book with the little ones they love.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780316093378"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0316093378"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 5.0,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QLmXe05AEFMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QLmXe05AEFMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=QLmXe05AEFMC&printsec=frontcover&dq=I+love+you&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=QLmXe05AEFMC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_I_LOVE_YOU_Book.html?hl=&id=QLmXe05AEFMC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_I_LOVE_YOU_Book-sample-epub.acsm?id=QLmXe05AEFMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QLmXe05AEFMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In his newest picture book, Todd Parr explores the meaning of unconditional love in a heartfelt, playful way. Featuring a heart-shaped die-cut and sparkling silver foil on the cover, this is the perfect way to say, &quot;I love you!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LbnsreitlDEC",
+      "etag": "rZyMVAueyPU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LbnsreitlDEC",
+      "volumeInfo": {
+        "title": "PS, I Love You",
+        "authors": [
+          "Cecelia Ahern"
+        ],
+        "publisher": "HarperCollins UK",
+        "publishedDate": "2008-09-04",
+        "description": "Meaningful and moving - the classic million-copy bestselling love story from Cecelia Ahern.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780007279364"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0007279361"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 512,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.0,
+        "ratingsCount": 104,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.27.24.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=LbnsreitlDEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=LbnsreitlDEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=LbnsreitlDEC&printsec=frontcover&dq=I+love+you&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=LbnsreitlDEC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LbnsreitlDEC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=LbnsreitlDEC&rdid=book-LbnsreitlDEC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/PS_I_Love_You-sample-epub.acsm?id=LbnsreitlDEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LbnsreitlDEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The million-copy bestselling love story – including an extract from the brand new sequel, Postscript"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FXyNuAEACAAJ",
+      "etag": "9R0zJVXUKxw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FXyNuAEACAAJ",
+      "volumeInfo": {
+        "title": "I Love You, Funny Bunny",
+        "authors": [
+          "Sean Julian"
+        ],
+        "publishedDate": "2018-12-17",
+        "description": "An illustrated, rhyming celebration of the love between a parent and child.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0310765439"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780310765431"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FXyNuAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FXyNuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=FXyNuAEACAAJ&dq=I+love+you&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=FXyNuAEACAAJ&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Love_You_Funny_Bunny.html?hl=&id=FXyNuAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FXyNuAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "An illustrated, rhyming celebration of the love between a parent and child."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OINUPjBneywC",
+      "etag": "DTucKIBED+Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OINUPjBneywC",
+      "volumeInfo": {
+        "title": "Vietnam, I Love You",
+        "authors": [
+          "Tom Lee"
+        ],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2011-11",
+        "description": "Doctor Jimmy Capri was anxious. Doctor Maureen \"Mo\" Lally had coerced him into presenting their paper at a military medical meeting in Hanoi. He feared that returning to Vietnam would unmask the post traumatic stress disorder, PTSD that he suffered from his first tour at First Marines First Medical Battalion in Da Nang and that he had managed to submerge for over thirty-five years. The memories that had lain dormant did surface, including being shot and the details of his love affair with Mai Nguyen, a nurse at WHO Children\"s Hospital. What he didn't anticipate from his short stay in Vietnam, was a new love.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781467853651"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1467853658"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 408,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OINUPjBneywC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OINUPjBneywC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=OINUPjBneywC&printsec=frontcover&dq=I+love+you&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=OINUPjBneywC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Vietnam_I_Love_You.html?hl=&id=OINUPjBneywC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OINUPjBneywC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Doctor Jimmy Capri was anxious."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xYLZq_mJsUcC",
+      "etag": "UtRK6mAtZGk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xYLZq_mJsUcC",
+      "volumeInfo": {
+        "title": "Haiti, I Love You",
+        "authors": [
+          "Emmanuel LaTouche"
+        ],
+        "publisher": "Xlibris Corporation",
+        "publishedDate": "2011-08-30",
+        "description": "Hati, I Love You, the fifth book of poetry, is a love collection for everyone to share one",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1462897258"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781462897254"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 48,
+        "printType": "BOOK",
+        "categories": [
+          "Poetry"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xYLZq_mJsUcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xYLZq_mJsUcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=xYLZq_mJsUcC&printsec=frontcover&dq=I+love+you&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=xYLZq_mJsUcC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xYLZq_mJsUcC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=xYLZq_mJsUcC&rdid=book-xYLZq_mJsUcC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.399E7,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Haiti_I_Love_You-sample-epub.acsm?id=xYLZq_mJsUcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Haiti_I_Love_You-sample-pdf.acsm?id=xYLZq_mJsUcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xYLZq_mJsUcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Hati, I Love You, the fifth book of poetry, is a love collection for everyone to share one"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7ep09WAFbDwC",
+      "etag": "kK4GbaI1qwM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7ep09WAFbDwC",
+      "volumeInfo": {
+        "title": "Love You Forever",
+        "authors": [
+          "Robert N. Munsch"
+        ],
+        "publisher": "Firefly Books",
+        "publishedDate": "1986",
+        "description": "As her son grows up from little boy to adult man, a mother secretly rocks him each night as he sleeps.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0920668372"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780920668375"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 337,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7ep09WAFbDwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7ep09WAFbDwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=7ep09WAFbDwC&printsec=frontcover&dq=I+love+you&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=7ep09WAFbDwC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Love_You_Forever.html?hl=&id=7ep09WAFbDwC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7ep09WAFbDwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "As her son grows up from little boy to adult man, a mother secretly rocks him each night as he sleeps."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TDW2PLQWDVEC",
+      "etag": "TUHo7zJFrHo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TDW2PLQWDVEC",
+      "volumeInfo": {
+        "title": "I Only Say This Because I Love You",
+        "subtitle": "Talking to Your Parents, Partner, Sibs, and Kids When You're All Adults",
+        "authors": [
+          "Deborah Tannen"
+        ],
+        "publisher": "Random House Digital, Inc.",
+        "publishedDate": "2002",
+        "description": "A guide to communicating better within families explains how to untie the knots that often hamper important discussions and how to enhance personal relationships among family members by understanding the art of conversation and listening.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345407528"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0345407520"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": [
+          "Family & Relationships"
+        ],
+        "averageRating": 3.0,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TDW2PLQWDVEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TDW2PLQWDVEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=TDW2PLQWDVEC&printsec=frontcover&dq=I+love+you&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=TDW2PLQWDVEC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Only_Say_This_Because_I_Love_You.html?hl=&id=TDW2PLQWDVEC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TDW2PLQWDVEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "I Only Say This Because I Love You, Tannen shows how important it is, in family talk, to learn to separate word meanings, or messages, from heart meanings, or metamessages — unstated but powerful meanings that come from the history of our ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jh-zCwAAQBAJ",
+      "etag": "pQuWCjDZZFM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jh-zCwAAQBAJ",
+      "volumeInfo": {
+        "title": "I Wrote This Book Because I Love You",
+        "subtitle": "Essays",
+        "authors": [
+          "Tim Kreider"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2018-02-06",
+        "description": "*A People Top 10 Book of 2018* The New York Times essayist and author of We Learn Nothing, Tim Kreider trains his singular power of observation on his (often befuddling) relationships with women. Psychologists have told him he’s a psychologist. Philosophers have told him he’s a philosopher. Religious groups have invited him to speak. He had a cult following as a cartoonist. But, above all else, Tim Kreider is an essayist—one whose deft prose, uncanny observations, dark humor, and emotional vulnerability have earned him deserved comparisons to David Sedaris, Sarah Vowell, and the late David Foster Wallace (who was himself a fan of Kreider’s humor). “Beautifully written, with just enough humor to balance his spikiness” (Booklist), I Wrote This Book Because I Love You focuses Tim’s unique perception and wit on his relationships with women—romantic, platonic, and the murky in-between. He talks about his difficulty finding lasting love and seeks to understand his commitment issues by tracking down the John Hopkins psychologist who tested him for a groundbreaking study on attachment when he was a toddler. He talks about his valued female friendships, one of which landed him on a circus train bound for Mexico. He talks about his time teaching young women at an upstate New York college, and the profound lessons they wound up teaching him. And in a hugely popular essay that originally appeared in The New York Times, he talks about his nineteen-year-old cat, wondering if it’s the most enduring relationship he’ll ever have. “In a style reminiscent of Orwell, E.B. White and David Sedaris” (The New York Times Book Review), each of these pieces is “heartbreaking, brutal, and hilarious” (Judd Apatow), and collectively they cement Kreider’s place among the best essayists working today.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781476739021"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1476739021"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.8.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Jh-zCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Jh-zCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Jh-zCwAAQBAJ&printsec=frontcover&dq=I+love+you&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Jh-zCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Jh-zCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 15.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 15.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Jh-zCwAAQBAJ&rdid=book-Jh-zCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.599E7,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.599E7,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/I_Wrote_This_Book_Because_I_Love_You-sample-epub.acsm?id=Jh-zCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Jh-zCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "But, above all else, Tim Kreider is an essayist—one whose deft prose, uncanny observations, dark humor, and emotional vulnerability have earned him deserved comparisons to David Sedaris, Sarah Vowell, and the late David Foster Wallace ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "bEx9AAAAMAAJ",
+      "etag": "awMmaxecMv0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bEx9AAAAMAAJ",
+      "volumeInfo": {
+        "title": "I Love You",
+        "authors": [
+          "Francesco Alberoni",
+          "Daphne Huges Newton"
+        ],
+        "publishedDate": "1996-01-01",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015040688262"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 421,
+        "printType": "BOOK",
+        "categories": [
+          "Love"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bEx9AAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bEx9AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=bEx9AAAAMAAJ&q=I+love+you&dq=I+love+you&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=bEx9AAAAMAAJ&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Love_You.html?hl=&id=bEx9AAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=bEx9AAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1DR36MWNTfEC",
+      "etag": "H27eJFyv0GM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1DR36MWNTfEC",
+      "volumeInfo": {
+        "title": "I Love You More",
+        "publisher": "Sourcebooks, Inc.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781402241666"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1402241666"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "averageRating": 4.0,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1DR36MWNTfEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1DR36MWNTfEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=1DR36MWNTfEC&printsec=frontcover&dq=I+love+you&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=1DR36MWNTfEC&dq=I+love+you&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/I_Love_You_More.html?hl=&id=1DR36MWNTfEC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/I_Love_You_More-sample-epub.acsm?id=1DR36MWNTfEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/I_Love_You_More-sample-pdf.acsm?id=1DR36MWNTfEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1DR36MWNTfEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
+{
+  "kind": "books#volumes",
+  "totalItems": 2665,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "eVpqDwAAQBAJ",
+      "etag": "YFcbmVazyXc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/eVpqDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Ulysses",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=eVpqDwAAQBAJ&pg=PP1&dq=james+joyce&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=eVpqDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=eVpqDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=eVpqDwAAQBAJ&rdid=book-eVpqDwAAQBAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=eVpqDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In his novel, Joyce parodies and retells a lot of plots and works from the world literature, quotes old myths and creates new ones. This makes the novel so unique."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gkATBAAAQBAJ",
+      "etag": "1wQ/fgq56rY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gkATBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Dubliners",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Lulu.com",
+        "publishedDate": "1967",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781291273991"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1291273999"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 261,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gkATBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gkATBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=gkATBAAAQBAJ&printsec=frontcover&dq=james+joyce&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=gkATBAAAQBAJ&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Dubliners.html?hl=&id=gkATBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=gkATBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VjcoLqAToaQC",
+      "etag": "XIRKZ+zqBMM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VjcoLqAToaQC",
+      "volumeInfo": {
+        "title": "The Dead",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Coyote Canyon Press",
+        "publishedDate": "2008-10",
+        "description": "\"The Dead is one of the twentieth century's most beautiful pieces of short literature. Taking his inspiration from a family gathering held every year on the Feast of the Epiphany, Joyce pens a story about a married couple attending a Christmas-season party at the house of the husband's two elderly aunts. A shocking confession made by the husband's wife toward the end of the story showcases the power of Joyce's greatest innovation: the epiphany, that moment when everything, for character and reader alike, is suddenly clear.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780979660795"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0979660793"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 70,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.0,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VjcoLqAToaQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VjcoLqAToaQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=VjcoLqAToaQC&printsec=frontcover&dq=james+joyce&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VjcoLqAToaQC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VjcoLqAToaQC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3.9,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 2.96,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VjcoLqAToaQC&rdid=book-VjcoLqAToaQC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3900000.0,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 2960000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Dead-sample-epub.acsm?id=VjcoLqAToaQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Dead-sample-pdf.acsm?id=VjcoLqAToaQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VjcoLqAToaQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A shocking confession made by the husband&#39;s wife toward the end of the story showcases the power of Joyce&#39;s greatest innovation: the epiphany, that moment when everything, for character and reader alike, is suddenly clear."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AbrXEkJoPwsC",
+      "etag": "Cy8vgcc84fg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AbrXEkJoPwsC",
+      "volumeInfo": {
+        "title": "Four Novels by James Joyce",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "eBookIt.com",
+        "publishedDate": "2013-03",
+        "description": "Compiled in one book, the essential collection of books by James JoyceUlyssesPortrait of the Artist As a Young ManThe DublinersChamber Music",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781456613792"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1456613790"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 2447,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AbrXEkJoPwsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AbrXEkJoPwsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=AbrXEkJoPwsC&printsec=frontcover&dq=james+joyce&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=AbrXEkJoPwsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AbrXEkJoPwsC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 2.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=AbrXEkJoPwsC&rdid=book-AbrXEkJoPwsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2990000.0,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 2990000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AbrXEkJoPwsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Compiled in one book, the essential collection of books by James JoyceUlyssesPortrait of the Artist As a Young ManThe DublinersChamber Music"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "C_rPXanc_HAC",
+      "etag": "zGMsWYNstbQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/C_rPXanc_HAC",
+      "volumeInfo": {
+        "title": "A Portrait of the Artist as a Young Man",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Wordsworth Editions",
+        "publishedDate": "1992",
+        "description": "Perhaps Joyce's most personal work, \"A Portrait Of The Artist As A Young Man\" depicts the intellectual awakening of one of literature's most memorable young heroes, Stephen Dedalus. Through a series of brilliant epiphanies that parallel the development of his own aesthetic consciousness, Joyce evokes Stephen's youth, from his impressionable years as the youngest student at the Clongowed Wood school to the deep religious conflict he experiences at a day school in Dublin, and finally to his college studies where he challenges the conventions of his upbringing and his understanding of faith and intellectual freedom. James Joyce's highly autobiographical novel was first published in the United States in 1916 to immediate acclaim. Ezra Pound accurately predicted that Joyce's book would \"remain a permanent part of English literature, \" while H.G. Wells dubbed it \"by far the most important living and convincing picture that exists of an Irish Catholic upbringing.\" A remarkably rich study of a developing young mind, \"A Portrait Of The Artist As A Young Man\" made an indelible mark on literature and confirmed Joyce's reputation as one of the world's greatest and lasting writers.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1853260061"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853260063"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 252,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.0,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.4.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=C_rPXanc_HAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=C_rPXanc_HAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=C_rPXanc_HAC&printsec=frontcover&dq=james+joyce&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=C_rPXanc_HAC&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Portrait_of_the_Artist_as_a_Young_Man.html?hl=&id=C_rPXanc_HAC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/A_Portrait_of_the_Artist_as_a_Young_Man-sample-epub.acsm?id=C_rPXanc_HAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=C_rPXanc_HAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This novel is a highly autobiographical account of the adolescence of Stephen Dedalus, who reappears in &#39;Ulysses&#39;, and who comes to realise that before he can become a true artist, he must rid himself of the stultifying effects of the ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FPxt5rmu1h8C",
+      "etag": "SXO7KhNWVhQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FPxt5rmu1h8C",
+      "volumeInfo": {
+        "title": "Ulysses",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "Courier Corporation",
+        "publishedDate": "2002-01-01",
+        "description": "Roman der foregår den 16. juni 1904 og afspejler nogle få menneskers liv og tanker",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0486424448"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780486424446"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 732,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FPxt5rmu1h8C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FPxt5rmu1h8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=FPxt5rmu1h8C&dq=james+joyce&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=FPxt5rmu1h8C&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ulysses.html?hl=&id=FPxt5rmu1h8C"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FPxt5rmu1h8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Roman der foregår den 16. juni 1904 og afspejler nogle få menneskers liv og tanker"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0ddvLGKDz4QC",
+      "etag": "BVxW8vNww8Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0ddvLGKDz4QC",
+      "volumeInfo": {
+        "title": "James Joyce in Context",
+        "authors": [
+          "John McCourt"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2009-02-12",
+        "description": "A collection of new essays covering Joyce's life, times and cultural contexts.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780521886628"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0521886627"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 414,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0ddvLGKDz4QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0ddvLGKDz4QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=0ddvLGKDz4QC&printsec=frontcover&dq=james+joyce&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=0ddvLGKDz4QC&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/James_Joyce_in_Context.html?hl=&id=0ddvLGKDz4QC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0ddvLGKDz4QC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A collection of new essays covering Joyce&#39;s life, times and cultural contexts."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Q-wgOcwu1FgC",
+      "etag": "1K6us2m1tWo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Q-wgOcwu1FgC",
+      "volumeInfo": {
+        "title": "Dubliners",
+        "authors": [
+          "James Joyce"
+        ],
+        "publisher": "OUP Oxford",
+        "publishedDate": "2008-06-12",
+        "description": "'I regret to see that my book has turned out un fiasco solenne' James Joyce's disillusion with the publication of Dubliners in 1914 was the result of ten years battling with publishers, resisting their demands to remove swear words, real place names and much else, including two entire stories. Although only 24 when he signed his first publishing contract for the book, Joyce already knew its worth: to alter it in any way would 'retard the course of civilisation in Ireland'. Joyce's aim was to tell the truth - to create a work of art that would reflect life in Ireland at the turn of the last century and by rejecting euphemism, reveal to the Irish the unromantic reality the recognition of which would lead to the spiritual liberation of the country. Each of the fifteen stories offers a glimpse of the lives of ordinary Dubliners - a death, an encounter, an opportunity not taken, a memory rekindled - and collectively they paint a portrait of a nation. ABOUT THE SERIES: For over 100 years Oxford World's Classics has made available the widest range of literature from around the globe. Each affordable volume reflects Oxford's commitment to scholarship, providing the most accurate text plus a wealth of other valuable features, including expert introductions by leading authorities, helpful notes to clarify the text, up-to-date bibliographies for further study, and much more.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780191631139"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0191631132"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.4.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Q-wgOcwu1FgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Q-wgOcwu1FgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=Q-wgOcwu1FgC&printsec=frontcover&dq=james+joyce&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Q-wgOcwu1FgC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Q-wgOcwu1FgC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.88,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 8.7,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Q-wgOcwu1FgC&rdid=book-Q-wgOcwu1FgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.088E7,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8700000.0,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Dubliners-sample-epub.acsm?id=Q-wgOcwu1FgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/Dubliners-sample-pdf.acsm?id=Q-wgOcwu1FgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Q-wgOcwu1FgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Each of the fifteen stories offers a glimpse of the lives of ordinary Dubliners - a death, an encounter, an opportunity not taken, a memory rekindled - and collectively they paint a portrait of a nation."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vdhWenAcwCUC",
+      "etag": "7X/b0+Z26Do",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vdhWenAcwCUC",
+      "volumeInfo": {
+        "title": "Occasional, Critical, and Political Writing",
+        "authors": [
+          "James Joyce",
+          "Kevin Barry",
+          "Conor Deane"
+        ],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "2000",
+        "description": "I may not be the Jesus Christ I once fondly imagined myself, but I think I must have a talent for journalism' James Joyce's non-fictional writings address diverse issues: aesthetics, the functions of the press, censorship, Irish cultural history, England's literature and empire. This collection includes newspaper articles, reviews, lectures, and propagandizing essays that are consciously public, direct, and communicative. It covers forty years of Joyce's life and maps important changes in his opinions about politics, especially Irish politics, about the relationship of literature to history, and about writers who remained important to him such as Mangan, Blake, Defoe, Ibsen, Wilde, and Shaw. These pieces also clarify and illuminate the transformations in Joyce's fiction, from Dubliners and A Portrait of the Artist as a Young Man to the first drafts of Ulysses. Gathering together more than fifty essays, several of which have never been available in an English edition, this volume is the most complete and the most helpfully annotated collection.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0192833537"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780192833532"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 360,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "averageRating": 5.0,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vdhWenAcwCUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vdhWenAcwCUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=vdhWenAcwCUC&printsec=frontcover&dq=james+joyce&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=vdhWenAcwCUC&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Occasional_Critical_and_Political_Writin.html?hl=&id=vdhWenAcwCUC"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vdhWenAcwCUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This collection includes newspaper articles, reviews, lectures, and propagandizing essays that are consciously public, direct,and communicative."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QutaAAAAMAAJ",
+      "etag": "zUeJAc5O1JM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QutaAAAAMAAJ",
+      "volumeInfo": {
+        "title": "James Joyce",
+        "authors": [
+          "Steven Connor"
+        ],
+        "publisher": "University Press of Mississippi",
+        "publishedDate": "1996-01-01",
+        "description": "In this lively, approachable introduction, which covers the whole range of James Joyce's writing from Dubliners to Finnegans Wake, Steven Connor traces the key concerns of language, identity and the transforming experiences of modernity",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015038184415"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 110,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QutaAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QutaAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ca/books?id=QutaAAAAMAAJ&q=james+joyce&dq=james+joyce&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=QutaAAAAMAAJ&dq=james+joyce&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/James_Joyce.html?hl=&id=QutaAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "CA",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QutaAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this lively, approachable introduction, which covers the whole range of James Joyce&#39;s writing from Dubliners to Finnegans Wake, Steven Connor traces the key concerns of language, identity and the transforming experiences of modernity"
+      }
+    }
+  ]
+}
+
+{ "title": "The Dead", "authors": [ "James Joyce" ],
+  VIETNAMESE
+{     "tiêu đề": "Người chết",     "tác giả": [      "James Joyce"     ]
+  EXTENSION OPTIONSMORE »

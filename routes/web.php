@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::get('/', "LibraryController@index")->name('homepage');
+
+Route::get('search', "LibraryController@search");
+
+Route::get('book/{id}', "LibraryController@book");
