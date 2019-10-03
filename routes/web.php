@@ -23,9 +23,11 @@ Route::get('book/{id}', "LibraryController@book");
 
 Auth::routes();
 
-Route::get('/logout', function (){
+Route::get('/logout/{backUrl}', function ($backUrl){
     Auth::logout();
-    return redirect('/');
+//    if (!isset($backUrl)) return redirect('/');
+//    var_dump($backUrl);
+    return redirect(urldecode($backUrl));
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
