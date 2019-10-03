@@ -2,7 +2,7 @@
 
 @section('main')
     <div class="h-100" style="margin: auto; background-image: url('{{URL::asset('images/background.jpg')}}'); background-repeat: no-repeat; background-size: cover;">
-        @include('components.navbar')
+        @include('components.navbar_index')
 
         <section id="root" class="h-75 d-flex align-content-center flex-wrap">
             <div class="w-100 text-center text-white">
