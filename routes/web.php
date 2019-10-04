@@ -27,7 +27,10 @@ Route::get('/logout/{backUrl}', function ($backUrl){
     Auth::logout();
 //    if (!isset($backUrl)) return redirect('/');
 //    var_dump($backUrl);
-    return redirect(urldecode($backUrl));
+    if (Route::has(urldecode($backUrl)))
+        return redirect(urldecode($backUrl));
+    else
+        return redirect('/');
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
