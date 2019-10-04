@@ -21,6 +21,13 @@ Route::get('search', "LibraryController@search");
 
 Route::get('book/{id}', "LibraryController@book");
 
+Route::get('bookshelf', function (){
+    $books = new \App\Http\Controllers\Helper\GoogleBooksApi();
+    $books->setSearch('walden', 9);
+    $books = $books->allBooks();
+    return view('bookshelf')->with('books', $books);
+});
+
 Auth::routes();
 
 Route::get('/logout/{backUrl}', function ($backUrl){
