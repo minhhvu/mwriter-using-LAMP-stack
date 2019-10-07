@@ -15,9 +15,9 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/', "LibraryController@index")->name('homepage');
+Route::get('/', "HomeController@index")->name('homepage');
 
-Route::get('search', "LibraryController@search");
+Route::get('search', "LibraryController@index");
 
 Route::get('book/{id}', "LibraryController@book");
 

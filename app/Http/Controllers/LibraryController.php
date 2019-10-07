@@ -8,22 +8,13 @@ use Illuminate\View\View;
 
 class LibraryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('index')->with('background_color','none');
-    }
 
     /**
      * Display the search request
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function search(Request $request){
+    public function index(Request $request){
         $books=[];
         $keywords='';
         if ($request->input('search') !== null){
