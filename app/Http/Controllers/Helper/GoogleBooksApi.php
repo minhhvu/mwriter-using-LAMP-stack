@@ -33,8 +33,19 @@ class GoogleBooksApi
         $this->maxResults = $maxResults;
         $query = 'https://www.googleapis.com/books/v1/volumes?q='.$this->keywords.'&maxResults='.(string) $this->maxResults.'&key='.$this->key;
         $this->query = $query;
-        $json = json_decode(file_get_contents($this->query), true);
-        $this->response_api = $json['items'];
+        $count =0;
+        while (true){
+            $json = json_decode(file_get_contents($this->query), true);
+            if (isset($json['items'])){
+                $this->response_api = $json['items'];
+                break;
+            };
+            $count++;
+            if ($count==20){
+                $this->response_api =[];
+                break;
+            }
+        }
     }
 
     private function convertToGoogleBookType($item){
