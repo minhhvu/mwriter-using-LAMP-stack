@@ -34,9 +34,9 @@ Route::get('/logout/{backUrl}', function ($backUrl){
     Auth::logout();
 //    if (!isset($backUrl)) return redirect('/');
 //    var_dump($backUrl);
-    if (Route::has(urldecode($backUrl)))
-        return redirect(urldecode($backUrl));
-    else
+//    if (Route::has(urldecode($backUrl)))
+//        return redirect(urldecode($backUrl));
+//    else
         return redirect('/');
 });
 
