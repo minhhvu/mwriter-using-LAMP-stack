@@ -12,7 +12,12 @@
         <div class="col-md-3 mb-4" style="">
             <div href="" class="col-sm-2 w-100 mb-3" ><img src="{{$book->coverLink}}" class="rounded"></div>
             <button class="btn btn-info mb-3 w-100">Preview</button>
-            <form action="" method="get" class="">
+            @php
+                $item = $book;
+                $width='w-100';
+            @endphp
+            @include('components.btn_addToList')
+            <form action="" method="get" class="d-none">
                 <input type="hidden" name="book" value="{{json_encode($book)}}">
                 <button type="button" class="btn btn-info w-100">Add to Your List</button>
             </form>

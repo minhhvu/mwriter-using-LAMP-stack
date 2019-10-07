@@ -23,6 +23,8 @@ Route::get('book/{id}', "LibraryController@book");
 
 Route::get('bookshelf', "BookshelfController@index");
 
+Route::post('bookshelf/store', 'BookshelfController@store')->name('store_book');
+
 Auth::routes();
 
 Route::get('/logout/{backUrl}', function ($backUrl){
