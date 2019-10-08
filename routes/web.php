@@ -21,12 +21,9 @@ Route::get('search', "LibraryController@index");
 
 Route::get('book/{id}', "LibraryController@book");
 
-Route::get('bookshelf', function (){
-    $books = new \App\Http\Controllers\Helper\GoogleBooksApi();
-    $books->setSearch('walden', 9);
-    $books = $books->allBooks();
-    return view('bookshelf')->with('books', $books);
-});
+Route::get('bookshelf', "BookshelfController@index");
+
+Route::post('bookshelf/store', 'BookshelfController@store')->name('store_book');
 
 Auth::routes();
 

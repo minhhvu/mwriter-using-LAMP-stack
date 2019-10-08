@@ -52,7 +52,8 @@ class GoogleBooksApi
         $x = new GoogleBook();
         $x->id = $item['id'];
         $x->title = $item['volumeInfo']['title'].', '.(isset($item['volumeInfo']['subtitle'])?$item['volumeInfo']['subtitle']:'');
-        $x->authors = isset($item['volumeInfo']['authors'])? $item['volumeInfo']['authors']: ['Unknown'];
+        $authors = isset($item['volumeInfo']['authors'])? $item['volumeInfo']['authors']: ['Unknown'];
+        $x->authors = $authors; //implode(' ', $authors);
         $x->publishDate = isset($item['volumeInfo']['publishedDate']) ? $item['volumeInfo']['publishedDate'] : 'Unknown';
         $x->coverLink = isset($item['volumeInfo']['imageLinks']['thumbnail'])?$item['volumeInfo']['imageLinks']['thumbnail']: 'https://www.google.com/googlebooks/images/no_cover_thumb.gif';
         $x->description = isset($item['volumeInfo']['description'])? $item['volumeInfo']['description']: '';
