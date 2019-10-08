@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Books;
+use App\Book;
 use Illuminate\Support\Facades\Validator;
 
 class BookshelfController extends Controller
@@ -55,7 +55,7 @@ class BookshelfController extends Controller
         var_dump('not good');
         if ($request->has('book')){
             $googleBook = json_decode($request->input('book'));
-            $book = new Books();
+            $book = new Book();
             $book->googleId = $googleBook->id;
             $book->title = $googleBook->title;
             $book->authors = implode(' ',$googleBook->authors);

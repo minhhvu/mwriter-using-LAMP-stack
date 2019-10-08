@@ -41,7 +41,7 @@ class GoogleBooksApi
                 break;
             };
             $count++;
-            if ($count==20){
+            if ($count==3){
                 $this->response_api =[];
                 break;
             }
