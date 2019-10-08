@@ -24,6 +24,7 @@ class BookshelfController extends Controller
         $books = new \App\Http\Controllers\Helper\GoogleBooksApi();
         $books->setSearch('walden', 9);
         $books = $books->allBooks();
+        return view('bookshelf')->with('books', $books);
     }
 
     /**
