@@ -13,7 +13,7 @@ class CreateBooksTable extends Migration
      */
     public function up()
     {
-        Schema::create('Books', function (Blueprint $table) {
+        Schema::create('Book', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('googleId')->unique();

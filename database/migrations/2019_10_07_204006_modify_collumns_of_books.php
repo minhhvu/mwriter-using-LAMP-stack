@@ -12,7 +12,7 @@ class ModifyCollumnsOfBooks extends Migration
      */
     public function up()
     {
-        Schema::table('Books', function (Blueprint $table) {
+        Schema::table('Book', function (Blueprint $table) {
             $table->text('coverLink')->change();
             $table->text('previewLink')->change();
         });
@@ -25,7 +25,7 @@ class ModifyCollumnsOfBooks extends Migration
      */
     public function down()
     {
-        Schema::table('Books', function (Blueprint $table) {
+        Schema::table('Book', function (Blueprint $table) {
             $table->string('coverLink')->change();
             $table->string('previewLink')->change();
         });
