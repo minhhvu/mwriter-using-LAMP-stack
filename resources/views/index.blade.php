@@ -1,7 +1,7 @@
 @extends('layouts.root')
 
-@section('main')
-    <div class="h-100" style="margin: auto; background-image: url('{{URL::asset('images/background.jpg')}}'); background-repeat: no-repeat; background-size: cover;">
+@section('header')
+    <div class="h-100" style="width: 100vw; margin: auto; background-image: url('{{URL::asset('images/background.jpg')}}'); background-repeat: no-repeat; background-size: cover;">
         @include('components.navbar')
 
         <section id="root" class="h-75 d-flex align-content-center flex-wrap">

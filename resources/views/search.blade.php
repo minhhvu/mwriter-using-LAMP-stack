@@ -8,7 +8,7 @@
 @endsection
 
 @section('main')
-    <section class="container" style="max-width: 700px">
+    <section>
         <div class="p-2 mt-5 mb-4 rounded" style="background: papayawhip">
             <h4 class="font-weight-bold">Search</h4>
             <form action="search" method="GET">

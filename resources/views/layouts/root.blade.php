@@ -18,7 +18,7 @@
 
         @yield('header')
 
-        @yield('main')
+        <section class="container" style="max-width: 800px"  id="root">@yield('main')</section>
 
         @yield('footer')
 
