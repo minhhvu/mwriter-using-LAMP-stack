@@ -28,6 +28,6 @@ class User extends Authenticatable
     ];
 
     public function books(){
-        return $this->belongsToMany('App\Book', 'book_user', 'book_id', 'user_id');
+        return $this->belongsToMany('App\Book', 'book_user')->withPivot('bookshelf_type_id');//, 'user_id','book_id');
     }
 }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 use App\Book;
 use Illuminate\Support\Facades\Auth;
@@ -22,10 +23,34 @@ class BookshelfController extends Controller
      */
     public function index()
     {
-        $books = new \App\Http\Controllers\Helper\GoogleBooksApi();
-        $books->setSearch('walden', 9);
-        $books = $books->allBooks();
-        return view('bookshelf')->with('books', $books);
+        //Read data of books for user
+        $books = User::find(Auth::user()->id)->books;
+        //Classify books into different shelves
+        $readingBooks =[];
+        $completedBooks =[];
+        $planningBooks =[];
+        $wishlistBooks =[];
+        foreach ($books as $item){
+            switch ($item->pivot->bookshelf_type_id){
+                case 1:
+                    $readingBooks[] = $item;
+                    break;
+                case 2:
+                    $completedBooks[] = $item;
+                    break;
+                case 3:
+                    $planningBooks[] = $item;
+                    break;
+                default:
+                    $wishlistBooks[] = $item;
+            }
+        }
+        return view('bookshelf')->with([
+            'readingBooks' => $readingBooks,
+            'completedBooks' => $completedBooks,
+            'planningBooks' => $planningBooks,
+            'wishlistBooks' => $wishlistBooks
+        ]);
     }
 
     /**
