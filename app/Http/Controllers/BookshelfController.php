@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\BookshelfTypes;
 use Illuminate\Http\Request;
 use App\Book;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 class BookshelfController extends Controller
@@ -11,7 +14,8 @@ class BookshelfController extends Controller
 
     public function __construct()
     {
-//        $this->middleware('auth');
+        $this->middleware('auth');
+//        dd(request());
     }
 
     /**
@@ -54,19 +58,28 @@ class BookshelfController extends Controller
 //        }
         var_dump('not good');
         if ($request->has('book')){
+            //Insert the book detail into the table Book
+
             $googleBook = json_decode($request->input('book'));
             $book = new Book();
             $book->googleId = $googleBook->id;
-            $book->title = $googleBook->title;
-            $book->authors = implode(' ',$googleBook->authors);
-            $book->publishDate = (int) $googleBook->publishDate;
-            $book->coverLink = $googleBook->coverLink;
-            $book->description = $googleBook->description;
-            $book->previewLink = $googleBook->previewLink;
-            $book->textSnippet = $googleBook->textSnippet;
-            $book->save();
+//            if (!DB::table('books')->where('googleId', '=',$book->googleId)->first()){
+            if(0 == Book::where('googleId', '=',$book->googleId)->count()){
+                //Only add the new book
+                $book->title = $googleBook->title;
+                $book->authors = implode(' ',$googleBook->authors);
+                $book->publishDate = (int) $googleBook->publishDate;
+                $book->coverLink = $googleBook->coverLink;
+                $book->description = $googleBook->description;
+                $book->previewLink = $googleBook->previewLink;
+                $book->textSnippet = $googleBook->textSnippet;
+                $book->save();
+                var_dump('Good');
+            };
 
-            var_dump('Good');
+            //Add the book into the wishlist bookshelf of the user
+            $userId = Auth::user()->id;
+            $bookId = Book::where('googleId', '=',$book->googleId)->first()->id;
         }
     }
 
