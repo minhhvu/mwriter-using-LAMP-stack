@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\BookUser;
 use App\User;
 use Illuminate\Http\Request;
 use App\Book;
@@ -102,11 +103,15 @@ class BookshelfController extends Controller
             //Add the book into the wishlist bookshelf of the user if it is new book for the user
             $userId = Auth::user()->id;
             $book = Book::where('googleId', '=',$book->googleId)->first();
-            if (!empty($book)){
-                $book->users()->attach($userId, ['bookshelf_type_id' => 3]);
-//                var_dump('add');
-            };
+
+            //In case book has been not added to the user's bookshelf
+            if (0==count(BookUser::where('book_id', $book->id)->where('user_id', $userId)->get())) {
+                $book->users()->attach($userId, ['bookshelf_type_id' => 4]);
+            }
+
         }
+
+        return redirect($_SERVER['HTTP_REFERER']);
     }
 
     /**
