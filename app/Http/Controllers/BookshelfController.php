@@ -2,12 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\BookshelfTypes;
 use Illuminate\Http\Request;
 use App\Book;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Validator;
 
 class BookshelfController extends Controller
 {
@@ -56,7 +53,7 @@ class BookshelfController extends Controller
 //        if ($validator->fails()){
 //            return ;
 //        }
-        var_dump('not good');
+//        var_dump('not good');
         if ($request->has('book')){
             //Insert the book detail into the table Book
 
@@ -74,12 +71,16 @@ class BookshelfController extends Controller
                 $book->previewLink = $googleBook->previewLink;
                 $book->textSnippet = $googleBook->textSnippet;
                 $book->save();
-                var_dump('Good');
+//                var_dump('Good');
             };
 
-            //Add the book into the wishlist bookshelf of the user
+            //Add the book into the wishlist bookshelf of the user if it is new book for the user
             $userId = Auth::user()->id;
-            $bookId = Book::where('googleId', '=',$book->googleId)->first()->id;
+            $book = Book::where('googleId', '=',$book->googleId)->first();
+            if (!empty($book)){
+                $book->users()->attach($userId, ['bookshelf_type_id' => 3]);
+//                var_dump('add');
+            };
         }
     }
 
