@@ -1,0 +1,1 @@
+<a href="/note/{{$item->id}}"><button class="btn btn-info mb-1 mr-2">Take notes</button></a>
