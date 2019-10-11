@@ -10,7 +10,7 @@
 @section('main')
     <section>
         <div class="p-2 mb-4 rounded" style="background: papayawhip">
-            <div class="font-weight-bold h4 mb-3">Search</div>
+            <div class="font-weight-bold h4">Search</div>
             <form action="search" method="GET">
                 <input class="form-control rounded-pill" name="search" value="{{$keywords}}">
             </form>

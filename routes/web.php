@@ -27,6 +27,10 @@ Route::post('bookshelf/store', 'BookshelfController@store')->name('store_book');
 
 Route::get('bookshelf/{book_id}/{bookshelf_id}', 'BookshelfController@update');
 
+Route::get('note', function (){
+    return view('note')->with('notes', [3,2,2]);
+});
+
 Auth::routes();
 
 Route::get('/logout/{backUrl}', function ($backUrl){
