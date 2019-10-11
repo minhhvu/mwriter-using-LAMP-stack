@@ -37,8 +37,8 @@
 
         @foreach($notes as $note)
             <div class="mb-4 p-2">
-                <h6 class="card-text">Time stamp</h6>
-                <div class="card-text">Note content</div>
+                <h6 class="card-text">{{$note->created_at}}</h6>
+                <div class="card-text">{{$note->content}}</div>
             </div>
         @endforeach
     </section>
