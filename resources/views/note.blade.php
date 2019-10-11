@@ -30,7 +30,9 @@
             <div class="h5 pb-2">Book title</div>
         </div>
 
-        <form>
+        <form action="/add-note" method="post">
+            @csrf
+            <input type="hidden" name="book-id" value="{{$bookId}}">
             <textarea id='note-input' class="form-control mb-2" name="note-content" rows="4" placeholder="What's in your mind?"></textarea>
             <button id="note-btn" type="submit" class="btn btn-info d-none">Save it</button>
         </form>
