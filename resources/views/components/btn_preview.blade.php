@@ -1,0 +1,1 @@
+<a class="btn btn-info mb-3 mr-3 {{$width or ''}}" href="{{$book->previewLink or $item->previewLink}}" target="_blank">Preview</a>

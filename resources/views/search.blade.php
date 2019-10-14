@@ -24,7 +24,10 @@
                         <a href="./book/{{$item->id}}" class="card-title h5">{{$item->title}}</a>
                         <h6 class="card-text">by {{implode(' ',$item->authors)}}</h6>
                         <p class="card-text">{!! str_replace('<br>','',$item->textSnippet) !!}</p>
-                        @include('components.btn_addToList')
+                        <div class="d-flex flex-row">
+                            @include('components.btn_preview')
+                            @include('components.btn_addToList')
+                        </div>
                     </div>
                 </div>
             @endforeach
