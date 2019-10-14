@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+//Route::get('/welcome', function () {
+//    return view('welcome');
+//});
 
 Route::get('/', "HomeController@index")->name('homepage');
 
@@ -33,14 +33,9 @@ Route::post('add-note', 'NoteController@store');
 
 Auth::routes();
 
-Route::get('/logout/{backUrl}', function ($backUrl){
+Route::get('/logout', function (){
     Auth::logout();
-//    if (!isset($backUrl)) return redirect('/');
-//    var_dump($backUrl);
-//    if (Route::has(urldecode($backUrl)))
-//        return redirect(urldecode($backUrl));
-//    else
-        return redirect('/');
+    return redirect(route('homepage'));
 });
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
