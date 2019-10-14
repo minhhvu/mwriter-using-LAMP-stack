@@ -11,6 +11,7 @@
             <div class="navbar" style="padding: 0">
                 @auth
                     <div class="nav-item btn mr-3 text-white font-weight-bold">Welcome {{Auth::user()->name}}</div>
+                    <a href="{{route('bookshelf')}}" class="nav-item btn border rounded text-white font-weight-bold mr-3">My bookshelf</a>
                     <a href="/logout/{{urlencode(Request::path().str_replace(Request::url(), '',Request::fullUrl()))}}" class="nav-item btn border rounded text-white font-weight-bold">Logout</a>
                 @else
                     <a href="/login" class="nav-item btn border rounded mr-3 text-white font-weight-bold">Login</a>

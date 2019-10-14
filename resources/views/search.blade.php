@@ -9,8 +9,8 @@
 
 @section('main')
     <section>
-        <div class="p-2 mt-5 mb-4 rounded" style="background: papayawhip">
-            <h4 class="font-weight-bold">Search</h4>
+        <div class="p-2 mb-4 rounded" style="background: papayawhip">
+            <div class="font-weight-bold h4">Search</div>
             <form action="search" method="GET">
                 <input class="form-control rounded-pill" name="search" value="{{$keywords}}">
             </form>
