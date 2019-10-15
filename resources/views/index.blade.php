@@ -14,7 +14,7 @@
             </div>
 
             <div class="mt-5">
-                @include('components.grid_topWeekReading')
+{{--                @include('components.grid_topWeekReading')--}}
             </div>
         </section>
     </div>
