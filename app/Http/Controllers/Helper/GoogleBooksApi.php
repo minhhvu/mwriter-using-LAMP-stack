@@ -8,8 +8,10 @@
 
 namespace App\Http\Controllers\Helper;
 
+use App\Book;
+
 class GoogleBook{
-    public $id, $title, $description, $coverLink, $previewLink, $publishDate, $authors, $textSnippet;
+    public $id, $title, $description, $coverLink, $previewLink, $publishDate, $authors, $textSnippet, $isOnDatabase;
 }
 
 
@@ -59,6 +61,7 @@ class GoogleBooksApi
         $x->description = isset($item['volumeInfo']['description'])? $item['volumeInfo']['description']: '';
         $x->previewLink = isset($item['volumeInfo']['previewLink'])? $item['volumeInfo']['previewLink']: 'Not available';
         $x->textSnippet = isset($item['searchInfo']['textSnippet'])?$item['searchInfo']['textSnippet']:'';
+        $x->isOnDatabase = (boolean)Book::where('googleId', $item['id'])->get()->count();
         return $x;
     }
 
