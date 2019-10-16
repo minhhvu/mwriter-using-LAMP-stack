@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Note;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 
 class NoteController extends Controller
 {
@@ -47,13 +48,20 @@ class NoteController extends Controller
      */
     public function store(Request $request)
     {
+        //Validate the note context with 100 characters at least
+//        $this->validate($request, ['note-content' => 'required|min:100']);
+        $validator = Validator::make($request->all(),['note-content' => 'required|min:10']);
+
+        if ($validator->fails()){
+            return redirect($_SERVER['HTTP_REFERER'])->withErrors($validator)->withInput();
+        };
+
         $note = new Note();
-        if ($request->has('note-content')){
-            $note->content = $request->input('note-content');
-            $note->book_id = $request->input('book-id');
-            $note->user_id = Auth::user()->id;
-            $note->save();
-        }
+        //When validate successfully
+        $note->content = $request->input('note-content');
+        $note->book_id = $request->input('book-id');
+        $note->user_id = Auth::user()->id;
+        $note->save();
 
         return redirect($_SERVER['HTTP_REFERER']);
     }
