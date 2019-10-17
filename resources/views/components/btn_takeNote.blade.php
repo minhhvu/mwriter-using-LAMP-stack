@@ -1,1 +1,1 @@
-<a href="/note/{{$item->id}}"><button class="btn btn-info mb-1 mr-2">Take notes</button></a>
+<a href="/note/{{\App\BookUser::where('book_id',$item->id)->where('user_id', Auth::user()->id)->first()->id}}"><button class="btn btn-info mb-1 mr-2">Take notes</button></a>

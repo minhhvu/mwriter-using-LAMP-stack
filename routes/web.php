@@ -27,7 +27,7 @@ Route::post('bookshelf/store', 'BookshelfController@store')->name('store_book');
 
 Route::get('bookshelf/{book_id}/{bookshelf_id}', 'BookshelfController@update');
 
-Route::get('note/{bookId}', 'NoteController@index');
+Route::get('note/{bookUserId}', 'NoteController@index');
 
 Route::post('add-note', 'NoteController@store');
 

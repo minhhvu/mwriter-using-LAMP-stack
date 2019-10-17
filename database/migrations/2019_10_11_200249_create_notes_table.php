@@ -17,10 +17,9 @@ class CreateNotesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->longText('content');
-            $table->unsignedInteger('book_id');
-            $table->foreign('book_id')->references('id')->on('books')->onDelete('cascade');
-            $table->unsignedInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->text('imageFileName');
+            $table->unsignedInteger('book_user_id');
+            $table->foreign('book_user_id')->references('id')->on('book_user')->onDelete('cascade');
         });
     }
 
