@@ -5,25 +5,25 @@
     </div>
 
     <div class="dropdown-menu" aria-labelledby="dropdownMoveto">
-        <form action="bookshelf/move" method="post">
+        <form action="bookshelf/update" method="post">
             @csrf
             <input type="hidden" value="{{$item->id}}" name="bookId">
             <input type="hidden" value="1" name="bookshelfTypeId">
             <button type="submit" class="dropdown-item">Reading</button>
         </form>
-        <form action="bookshelf/move" method="post">
+        <form action="bookshelf/update" method="post">
             @csrf
             <input type="hidden" value="{{$item->id}}" name="bookId">
             <input type="hidden" value="2" name="bookshelfTypeId">
             <button type="submit" class="dropdown-item">Completed</button>
         </form>
-        <form action="bookshelf/move" method="post">
+        <form action="bookshelf/update" method="post">
             @csrf
             <input type="hidden" value="{{$item->id}}" name="bookId">
             <input type="hidden" value="3" name="bookshelfTypeId">
             <button type="submit" class="dropdown-item">Planning</button>
         </form>
-        <form action="bookshelf/move" method="post">
+        <form action="bookshelf/update" method="post">
             @csrf
             <input type="hidden" value="{{$item->id}}" name="bookId">
             <input type="hidden" value="4" name="bookshelfTypeId">
