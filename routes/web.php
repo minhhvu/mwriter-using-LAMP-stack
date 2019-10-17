@@ -25,7 +25,8 @@ Route::get('bookshelf', "BookshelfController@index")->name('bookshelf');
 
 Route::post('bookshelf/store', 'BookshelfController@store')->name('store_book');
 
-Route::get('bookshelf/{book_id}/{bookshelf_id}', 'BookshelfController@update');
+//Route::get('bookshelf/{book_id}/{bookshelf_id}', 'BookshelfController@update');
+Route::post('bookshelf/move', 'BookshelfController@update');
 
 Route::get('note/{bookUserId}', 'NoteController@index');
 

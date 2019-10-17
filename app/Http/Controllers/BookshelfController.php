@@ -140,13 +140,18 @@ class BookshelfController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int $book_id, int $bookshelf_id
+     *
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $book_id, $bookshelf_id)
+    public function update(Request $request)
     {
-        $book = Book::find($book_id);
-        $book->users()->updateExistingPivot(Auth::user()->id, ['bookshelf_type_id' => $bookshelf_id]);
+        if ($request->has('bookId') and $request->has('bookshelfTypeId')){
+            $book_id = $request->input('bookId');
+            $bookshelf_id = $request->input('bookshelfTypeId');
+            $book = Book::find($book_id);
+            $book->users()->updateExistingPivot(Auth::user()->id, ['bookshelf_type_id' => $bookshelf_id]);
+        };
+
         return redirect('/bookshelf');
     }
 
