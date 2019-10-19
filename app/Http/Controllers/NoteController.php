@@ -24,12 +24,11 @@ class NoteController extends Controller
      * @param int bookId;
      * @return \Illuminate\Http\Response
      */
-    public function index(int $bookUserId)
+    public function index(int $bookUserId, BookRepository $bookRepo)
     {
         $noteRepository = new NoteRepository();
         $notes = $noteRepository->getNotesByBookUserId($bookUserId);
 
-        $bookRepo = new BookRepository();
         $book = $bookRepo->getBookByBookUserId($bookUserId);
 
         return view('note')->with(
