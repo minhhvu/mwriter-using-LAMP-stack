@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Book;
 use App\BookUser;
 use App\Note;
+use App\Repositories\NoteRepository;
+use App\Repositories\BookRepository;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\URL;
@@ -24,10 +26,12 @@ class NoteController extends Controller
      */
     public function index(int $bookUserId)
     {
-        //Read all notes from table notes
-        $notes = Note::where('book_user_id', $bookUserId)->get();
-        $book = BookUser::find($bookUserId);
-        $book = Book::find($book->book_id);
+        $noteRepository = new NoteRepository();
+        $notes = $noteRepository->getNotesByBookUserId($bookUserId);
+
+        $bookRepo = new BookRepository();
+        $book = $bookRepo->getBookByBookUserId($bookUserId);
+
         return view('note')->with(
             [
                 'notes' => $notes,
