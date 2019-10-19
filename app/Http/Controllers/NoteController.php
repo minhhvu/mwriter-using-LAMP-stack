@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Book;
+use App\BookUser;
 use App\Note;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\Validator;
 
 class NoteController extends Controller
 {
@@ -18,15 +22,17 @@ class NoteController extends Controller
      * @param int bookId;
      * @return \Illuminate\Http\Response
      */
-    public function index(int $bookId)
+    public function index(int $bookUserId)
     {
         //Read all notes from table notes
-        $userId = Auth::user()->id;
-        $notes = Note::where('book_id', $bookId)->where('user_id', $userId)->get();
+        $notes = Note::where('book_user_id', $bookUserId)->get();
+        $book = BookUser::find($bookUserId);
+        $book = Book::find($book->book_id);
         return view('note')->with(
             [
                 'notes' => $notes,
-                'bookId' => $bookId]);
+                'book' => $book,
+                'bookUserId' => $bookUserId]);
     }
 
     /**
@@ -47,13 +53,27 @@ class NoteController extends Controller
      */
     public function store(Request $request)
     {
+        //Validate the note context with 100 characters at least
+//        $this->validate($request, ['noteContent' => 'required|min:100']);
+        $validator = Validator::make($request->all(),['noteContent' => 'required|min:10']);
+
+        if ($validator->fails()){
+            return redirect($_SERVER['HTTP_REFERER'])->withErrors($validator)->withInput();
+        };
+
+        //When validate successfully
         $note = new Note();
-        if ($request->has('note-content')){
-            $note->content = $request->input('note-content');
-            $note->book_id = $request->input('book-id');
-            $note->user_id = Auth::user()->id;
-            $note->save();
+        $note->imageFileName = '';
+        if ($request->hasFile('noteFile')){
+            $file = $request->file('noteFile');
+            $newFileName = time().$file->getClientOriginalName();
+            $path = $file->storeAs('public', $newFileName);
+            $note->imageFileName = $newFileName;
         }
+
+        $note->content = $request->input('noteContent');
+        $note->book_user_id = $request->input('book-user-id');
+        $note->save();
 
         return redirect($_SERVER['HTTP_REFERER']);
     }

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\WelcomeEmail;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -24,6 +27,6 @@ class HomeController extends Controller
     public function index()
     {
         return view('index')->with('background_color','none');
-//        return view('home');
     }
+
 }

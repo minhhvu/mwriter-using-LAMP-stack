@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+//Route::get('/welcome', function () {
+//    return view('welcome');
+//});
 
 Route::get('/', "HomeController@index")->name('homepage');
 
@@ -25,22 +25,17 @@ Route::get('bookshelf', "BookshelfController@index")->name('bookshelf');
 
 Route::post('bookshelf/store', 'BookshelfController@store')->name('store_book');
 
-Route::get('bookshelf/{book_id}/{bookshelf_id}', 'BookshelfController@update');
+Route::post('bookshelf/update', 'BookshelfController@update');
 
-Route::get('note/{bookId}', 'NoteController@index');
+Route::get('note/{bookUserId}', 'NoteController@index');
 
 Route::post('add-note', 'NoteController@store');
 
 Auth::routes();
 
-Route::get('/logout/{backUrl}', function ($backUrl){
+Route::get('/logout', function (){
     Auth::logout();
-//    if (!isset($backUrl)) return redirect('/');
-//    var_dump($backUrl);
-//    if (Route::has(urldecode($backUrl)))
-//        return redirect(urldecode($backUrl));
-//    else
-        return redirect('/');
+    return redirect(route('homepage'));
 });
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');

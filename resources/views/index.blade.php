@@ -12,6 +12,10 @@
                     <input class="form-control w-50 m-auto rounded-pill" name="search" value="" placeholder="Search a book">
                 </form>
             </div>
+
+            <div class="mt-5">
+{{--                @include('components.grid_topWeekReading')--}}
+            </div>
         </section>
     </div>
 @endsection

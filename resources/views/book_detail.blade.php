@@ -11,11 +11,11 @@
     <section class="d-flex flex-wrap mt-5 justify-content-center">
         <div class="col-md-3 mb-4" style="">
             <div href="" class="col-sm-2 w-100 mb-3" ><img src="{{$book->coverLink}}" class="rounded"></div>
-            <button class="btn btn-info mb-3 w-100">Preview</button>
             @php
                 $item = $book;
                 $width='w-100';
             @endphp
+            @include('components.btn_preview')
             @include('components.btn_addToList')
             <form action="" method="get" class="d-none">
                 <input type="hidden" name="book" value="{{json_encode($book)}}">
