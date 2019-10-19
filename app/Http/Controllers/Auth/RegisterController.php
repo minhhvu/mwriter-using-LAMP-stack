@@ -72,8 +72,8 @@ class RegisterController extends Controller
         ]);
 
         //Send an email to new account
-        $receiver = new WelcomeEmail($user);
-        Mail::to($data['email'])->send($receiver);
+//        $receiver = new WelcomeEmail($user);
+//        Mail::to($data['email'])->send($receiver);
 
         return $user;
     }
