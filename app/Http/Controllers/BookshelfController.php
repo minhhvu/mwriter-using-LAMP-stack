@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\BookUser;
+use App\Repositories\BookRepository;
 use App\User;
 use Illuminate\Http\Request;
 use App\Book;
@@ -25,32 +26,16 @@ class BookshelfController extends Controller
     public function index()
     {
         //Read data of books for user
-        $books = User::find(Auth::user()->id)->books;
+        $bookRes = new BookRepository();
         //Classify books into different shelves
-        $readingBooks =[];
-        $completedBooks =[];
-        $planningBooks =[];
-        $wishlistBooks =[];
-        foreach ($books as $item){
-            switch ($item->pivot->bookshelf_type_id){
-                case 1:
-                    $readingBooks[] = $item;
-                    break;
-                case 2:
-                    $completedBooks[] = $item;
-                    break;
-                case 3:
-                    $planningBooks[] = $item;
-                    break;
-                default:
-                    $wishlistBooks[] = $item;
-            }
-        }
+        $books = $bookRes->getBooksOfUser(Auth::user()->id);
+        $books = $bookRes->classifyBooksIntoShelves($books);
+
         return view('bookshelf')->with([
-            'readingBooks' => $readingBooks,
-            'completedBooks' => $completedBooks,
-            'planningBooks' => $planningBooks,
-            'wishlistBooks' => $wishlistBooks
+            'readingBooks' => $books['readingBooks'],
+            'completedBooks' => $books['completedBooks'],
+            'planningBooks' => $books['planningBooks'],
+            'wishlistBooks' => $books['wishlistBooks'],
         ]);
     }
 
@@ -72,43 +57,14 @@ class BookshelfController extends Controller
      */
     public function store(Request $request)
     {
-//        $validator = Validator::make($request->all(),[
-//            'googleBook' => 'required'
-//        ]);
-//
-//        if ($validator->fails()){
-//            return ;
-//        }
-//        var_dump('not good');
         if ($request->has('book')){
             //Insert the book detail into the table Book
-
             $googleBook = json_decode($request->input('book'));
-            $book = new Book();
-            $book->googleId = $googleBook->id;
-//            if (!DB::table('books')->where('googleId', '=',$book->googleId)->first()){
-            if(0 == Book::where('googleId', '=',$book->googleId)->count()){
-                //Only add the new book
-                $book->title = $googleBook->title;
-                $book->authors = implode(' ',$googleBook->authors);
-                $book->publishDate = (int) $googleBook->publishDate;
-                $book->coverLink = $googleBook->coverLink;
-                $book->description = $googleBook->description;
-                $book->previewLink = $googleBook->previewLink;
-                $book->textSnippet = $googleBook->textSnippet;
-                $book->save();
-//                var_dump('Good');
-            };
+            $bookRes = new BookRepository();
+            $bookRes->addBookIntoBookTable($googleBook);
 
-            //Add the book into the wishlist bookshelf of the user if it is new book for the user
-            $userId = Auth::user()->id;
-            $book = Book::where('googleId', '=',$book->googleId)->first();
-
-            //In case book has been not added to the user's bookshelf
-            if (0==count(BookUser::where('book_id', $book->id)->where('user_id', $userId)->get())) {
-                $book->users()->attach($userId, ['bookshelf_type_id' => 4]);
-            }
-
+            //Mark the book as the wishlist book of the user
+            $bookRes->attachBookUser(Auth::user()->id, $googleBook->id);
         }
 
         return redirect($_SERVER['HTTP_REFERER']);
