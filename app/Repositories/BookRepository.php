@@ -44,6 +44,12 @@ class BookRepository
         return $result;
     }
 
+    public function getBookFromBookUserId($bookUserId){
+        $book = BookUser::find($bookUserId);
+        $book = Book::find($book->book_id);
+        return $book;
+    }
+
     //Insert the googleBook object into Book table database
     public function addBookIntoBookTable($googleBook){
         $book = new Book();
