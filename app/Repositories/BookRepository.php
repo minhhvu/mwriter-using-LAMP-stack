@@ -20,29 +20,6 @@ class BookRepository
         return $books;
     }
 
-    public function classifyBooksIntoShelves($books){
-        $result =[];
-        $result['readingBooks'] =[];
-        $result['completedBooks'] =[];
-        $result['planningBooks'] =[];
-        $result['wishlistBooks'] =[];
-        foreach ($books as $item){
-            switch ($item->pivot->bookshelf_type_id){
-                case 1:
-                    $result['readingBooks'][] = $item;
-                    break;
-                case 2:
-                    $result['completedBooks'][] = $item;
-                    break;
-                case 3:
-                    $result['planningBooks'][] = $item;
-                    break;
-                default:
-                    $result['wishlistBooks'][] = $item;
-            }
-        }
-        return $result;
-    }
 
     public function getBookFromBookUserId($bookUserId){
         $book = BookUser::find($bookUserId);
@@ -54,28 +31,31 @@ class BookRepository
     public function addBookIntoBookTable($googleBook){
         $book = new Book();
         $book->googleId = $googleBook->id;
-        if(0 == Book::where('googleId', '=',$book->googleId)->count()){
-            //Only add the new book
-            $book->title = $googleBook->title;
-            $book->authors = implode(' ',$googleBook->authors);
-            $book->publishDate = (int) $googleBook->publishDate;
-            $book->coverLink = $googleBook->coverLink;
-            $book->description = $googleBook->description;
-            $book->previewLink = $googleBook->previewLink;
-            $book->textSnippet = $googleBook->textSnippet;
-            $book->save();
-        };
+        $book->title = $googleBook->title;
+        $book->authors = implode(' ',$googleBook->authors);
+        $book->publishDate = (int) $googleBook->publishDate;
+        $book->coverLink = $googleBook->coverLink;
+        $book->description = $googleBook->description;
+        $book->previewLink = $googleBook->previewLink;
+        $book->textSnippet = $googleBook->textSnippet;
+
+        return $book->save();
 
     }
 
-    //Insert a new record of BookUser table
-    public function attachBookUser($userId, $googleBookId){
-        //Add the book into the wishlist bookshelf of the user if it is new book for the user
-        $book = Book::where('googleId', '=',$googleBookId)->first();
+    public function getBookByGoogleBookId($googleBookId){
+        return Book::where('googleId', '=',$googleBookId)->first();
+    }
 
-        if (0==count(BookUser::where('book_id', $book->id)->where('user_id', $userId)->get())) {
-            $book->users()->attach($userId, ['bookshelf_type_id' => 4]);
-        }
+    public function hasBookUser($bookId, $userId){
+        if (0 == count(BookUser::where('book_id', $bookId)->where('user_id', $userId)->get()))
+            return false;
+        else
+            return true;
+    }
+
+    public function insertRecordIntoBookUser($book, $userId, $bookShelfTypeId){
+        return $book->users()->attach($userId, ['bookshelf_type_id' => $bookShelfTypeId]);
     }
 
 }

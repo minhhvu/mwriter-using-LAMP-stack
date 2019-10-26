@@ -27,15 +27,35 @@ class BookshelfController extends Controller
     {
         //Read data of books for user
         $bookRes = new BookRepository();
+
         //Classify books into different shelves
         $books = $bookRes->getBooksOfUser(Auth::user()->id);
-        $books = $bookRes->classifyBooksIntoShelves($books);
+        $result =[];
+        $result['readingBooks'] =[];
+        $result['completedBooks'] =[];
+        $result['planningBooks'] =[];
+        $result['wishlistBooks'] =[];
+        foreach ($books as $item){
+            switch ($item->pivot->bookshelf_type_id){
+                case 1:
+                    $result['readingBooks'][] = $item;
+                    break;
+                case 2:
+                    $result['completedBooks'][] = $item;
+                    break;
+                case 3:
+                    $result['planningBooks'][] = $item;
+                    break;
+                default:
+                    $result['wishlistBooks'][] = $item;
+            }
+        }
 
         return view('bookshelf')->with([
-            'readingBooks' => $books['readingBooks'],
-            'completedBooks' => $books['completedBooks'],
-            'planningBooks' => $books['planningBooks'],
-            'wishlistBooks' => $books['wishlistBooks'],
+            'readingBooks' => $result['readingBooks'],
+            'completedBooks' => $result['completedBooks'],
+            'planningBooks' => $result['planningBooks'],
+            'wishlistBooks' => $result['wishlistBooks'],
         ]);
     }
 
@@ -58,13 +78,20 @@ class BookshelfController extends Controller
     public function store(Request $request)
     {
         if ($request->has('book')){
-            //Insert the book detail into the table Book
+            $userId = Auth::user()->id;
             $googleBook = json_decode($request->input('book'));
-            $bookRes = new BookRepository();
-            $bookRes->addBookIntoBookTable($googleBook);
 
-            //Mark the book as the wishlist book of the user
-            $bookRes->attachBookUser(Auth::user()->id, $googleBook->id);
+            //Insert the book detail into the table Book
+            $bookRes = new BookRepository();
+            $book = $bookRes->getBookByGoogleBookId($googleBook->id);
+            if (!isset($book)) //Only add the non-existing book on Book table
+                $bookRes->addBookIntoBookTable($googleBook);
+
+            //Add the book as the wishlist book of the user if not existing
+            $book = $bookRes->getBookByGoogleBookId($googleBook->id);
+            if (!$bookRes->hasBookUser($book, $userId)){
+                $bookRes->insertRecordIntoBookUser($book, $userId, 4);
+            }
         }
 
         return redirect($_SERVER['HTTP_REFERER']);
